@@ -22,6 +22,7 @@ private _visualType = switch (side _gunner) do {
 
 private _visualUav = _visualType createVehicle _launchPos;
 createVehicleCrew _visualUav;
+_visualUav setVehicleTIPars [1, 0, 0];
 
 if (local _visualUav) then {
 	_visualUav lockDriver true;

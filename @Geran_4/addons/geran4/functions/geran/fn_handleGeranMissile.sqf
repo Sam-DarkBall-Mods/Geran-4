@@ -7,6 +7,9 @@ private _dialogName = param [3, "geran_seeker"];
 
 if (isNull _projectile || {!alive _projectile}) exitWith {};
 if (!isNull (findDisplay GERAN_IDD_SEEKER)) exitWith {};
+if (_projectile getVariable ["geran4_controlOpen", false]) exitWith {};
+
+_projectile setVariable ["geran4_controlOpen", true];
 
 private _camera = [_projectile, 2] call geran4_fnc_camCreate;
 private _display = createDialog [_dialogName, true];
@@ -14,6 +17,7 @@ private _display = createDialog [_dialogName, true];
 if (isNull _display) exitWith {
 	_camera cameraEffect ["terminate", "back"];
 	camDestroy _camera;
+	_projectile setVariable ["geran4_controlOpen", false];
 };
 
 uiNamespace setVariable ["geran4_camera", _camera];
@@ -821,4 +825,8 @@ if ((uiNamespace getVariable ["geran4_camera", objNull]) isEqualTo _camera) then
 		"geran4_fovPulse",
 		(uiNamespace getVariable ["geran4_fovPulse", 0]) + 1
 	];
+};
+
+if (!isNull _projectile) then {
+	_projectile setVariable ["geran4_controlOpen", false];
 };
