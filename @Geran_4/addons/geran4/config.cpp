@@ -268,11 +268,11 @@ class CfgVehicles
 		displayName="Geran-2";
 		model="\geran4\shahed4.p3d";
 		irTarget=1;
-		irTargetSize=0.8;
+		irTargetSize=0.80000001;
 		radarTarget=1;
-		radarTargetSize=0.55;
+		radarTargetSize=0.15000001;
 		visualTarget=1;
-		visualTargetSize=0.65;
+		visualTargetSize=0.89999998;
 	};
 	class geran_uav_b: B_UAV_01_F
 	{
@@ -281,11 +281,11 @@ class CfgVehicles
 		displayName="Geran-2";
 		model="\geran4\shahed4.p3d";
 		irTarget=1;
-		irTargetSize=0.8;
+		irTargetSize=0.80000001;
 		radarTarget=1;
-		radarTargetSize=0.55;
+		radarTargetSize=0.15000001;
 		visualTarget=1;
-		visualTargetSize=0.65;
+		visualTargetSize=0.89999998;
 	};
 	class geran_uav_i: I_UAV_01_F
 	{
@@ -294,11 +294,11 @@ class CfgVehicles
 		displayName="Geran-2";
 		model="\geran4\shahed4.p3d";
 		irTarget=1;
-		irTargetSize=0.8;
+		irTargetSize=0.80000001;
 		radarTarget=1;
-		radarTargetSize=0.55;
+		radarTargetSize=0.15000001;
 		visualTarget=1;
-		visualTargetSize=0.65;
+		visualTargetSize=0.89999998;
 	};
 	class All
 	{
