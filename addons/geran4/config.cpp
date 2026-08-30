@@ -15,7 +15,10 @@ class CfgPatches
 			"A3_Weapons_F_Exp",
 			"A3_Supplies_F_Enoch_Ammoboxes",
 			"A3_Drones_F_Air_F_Gamma_UAV_01",
-			"cba_settings"
+			"cba_common",
+			"cba_settings",
+			"cba_ui",
+			"cba_xeh"
 		};
 		requiredVersion = 2.22;
 		units[]=
