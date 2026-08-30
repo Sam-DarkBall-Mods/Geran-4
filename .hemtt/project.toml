@@ -5,17 +5,31 @@ author = "DarkBall, Sam, and contributors"
 
 [files]
 include = [
-    "AUTHORS.md",
-    "LICENSE",
-    "LICENSES/**",
-    "LICENSES.md",
-    "README.md",
-    "THIRD_PARTY_NOTICES.md",
     "meta.cpp",
     "mod.cpp",
     "mod.paa",
     "mod_small.paa",
     "preview.jpg",
+]
+
+exclude = [
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/*.bak",
+    "**/*.bak.*",
+    "**/*.back.*",
+    "**/*.tmp",
+    "**/*.orig",
+    "**/*.rej",
+    "**/* - Copy.*",
+    "**/*.psd",
+    "**/*.psb",
+    "**/*.xcf",
+    "**/*.blend",
+    "**/*.blend1",
+    "**/.gitkeep",
+    "addons/**/README*",
+    "optionals/**/README*",
 ]
 
 [version]
