@@ -1,4 +1,6 @@
 name = "Geran-4";
+actionName = "GitHub";
+action = "https://github.com/Sam-DarkBall-Mods/Geran-4";
 picture = "mod.paa";
 logo = "mod.paa";
 logoOver = "mod.paa";

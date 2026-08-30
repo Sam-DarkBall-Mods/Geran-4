@@ -17,7 +17,7 @@ class CfgPatches
 			"A3_Drones_F_Air_F_Gamma_UAV_01",
 			"cba_settings"
 		};
-		requiredVersion=0.1;
+		requiredVersion = 2.22;
 		units[]=
 		{
 			"geran_uav_o",

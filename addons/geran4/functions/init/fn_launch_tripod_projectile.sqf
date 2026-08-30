@@ -15,8 +15,8 @@ _projectile hideObject true;
 [_projectile, true] remoteExec ["hideObjectGlobal", 2];
 
 private _visualType = switch (side _gunner) do {
-	case INDEPENDENT: {"geran_uav_i"};
-	case EAST: {"geran_uav_o"};
+	case independent: {"geran_uav_i"};
+	case east: {"geran_uav_o"};
 	default {"geran_uav_b"};
 };
 
